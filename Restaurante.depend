@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1667015544 source:f:\desktop\proyectos\restaurante\main.cpp
+	<iostream>
+	<cstdlib>
+	<locale.h>
+	"include/librerias/Basics.h"
+	"include/librerias/errores.h"
+	"include/librerias/Fecha.h"
+	"include/librerias/Menu.h"
+	"include/clases/personas.h"
+	"include/clases/sucursales.h"
+	"include/clases/mozos.h"
+	"include/clases/comidas.h"
+	"include/clases/bebidas.h"
+	"include/clases/clientes.h"
+	"include/clases/ventas.h"
+	"include/fun/a.h"
+	"include/fun/cargar.h"
+	"include/fun/mostrar.h"
+	"include/fun/reportes.h"
+	"include/menus/menu_carga.h"
+	"include/menus/menu_muestra.h"
+	"include/menus/menu_reportes.h"
+	"include/menus/menu_registros.h"
+	"include/menus/menu_principal.h"
+
+1663375832 f:\desktop\proyectos\restaurante\include\librerias\errores.h
+
+1666643688 f:\desktop\proyectos\restaurante\include\librerias\fecha.h
+	<time.h>
+
+1667015768 f:\desktop\proyectos\restaurante\include\librerias\menu.h
+	"rlutil.h"
+
+1654872498 f:\desktop\proyectos\restaurante\include\librerias\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1666752928 f:\desktop\proyectos\restaurante\include\clases\personas.h
+
+1667065096 f:\desktop\proyectos\restaurante\include\clases\mozos.h
+
+1667077435 f:\desktop\proyectos\restaurante\include\clases\comidas.h
+
+1667065805 f:\desktop\proyectos\restaurante\include\clases\bebidas.h
+
+1667074782 f:\desktop\proyectos\restaurante\include\clases\clientes.h
+
+1667060926 f:\desktop\proyectos\restaurante\include\clases\ventas.h
+
+1666881253 f:\desktop\proyectos\restaurante\include\menus\menu_principal.h
+
+1666626966 f:\desktop\proyectos\restaurante\include\librerias\basics.h
+
+1666628720 f:\desktop\proyectos\restaurante\include\fun\a.h
+
+1666838791 f:\desktop\proyectos\restaurante\include\fun\cargar.h
+
+1666873665 f:\desktop\proyectos\restaurante\include\fun\mostrar.h
+
+1666838832 f:\desktop\proyectos\restaurante\include\menus\menu_carga.h
+
+1666668389 f:\desktop\proyectos\restaurante\include\menus\menu_muestra.h
+
+1667065115 f:\desktop\proyectos\restaurante\include\clases\sucursales.h
+
+1667079664 f:\desktop\proyectos\restaurante\include\fun\reportes.h
+
+1667079738 f:\desktop\proyectos\restaurante\include\menus\menu_reportes.h
+
+1667077101 f:\desktop\proyectos\restaurante\include\menus\menu_registros.h
+
