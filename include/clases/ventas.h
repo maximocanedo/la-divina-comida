@@ -18,9 +18,9 @@ private:
     int codCliente;
     int codSucursal;
     int codMozo;
-    float neto;
-    float impuestos;
-    float total;
+    float neto = 0;
+    float impuestos = 0;
+    float total = 0;
     int medioDePago; // 0 => Efectivo, 1 => Tarjeta de crédito/débito, 2 => Transferencia bancaria, 3 => Cheque, 4 => Pagaré
     Date fechaDeLaOperacion;
     bool estado;
