@@ -20,10 +20,8 @@ int recaudacionEnBebidasAlcoholicas() {
     while(obj.leerDeArchivo(pos++)) {
         if(obj.getEstado()) {
             Bebida * bbs = obj.getBebidas();
-            for(int i = 0; i < 48; i++) {
-                Bebida aux;
-                int p = aux.getByCodigo(bbs[i].getCodigo());
-                if(p != -1 && bbs[i].contieneAlcohol()) rec += bbs[i].getPrecio();
+            for(int i = 0; i < obj.getCantidadDeBebidas(); i++) {
+                if(bbs[i].getEstado() && bbs[i].contieneAlcohol()) rec += bbs[i].getPrecio();
             }
         }
     }
