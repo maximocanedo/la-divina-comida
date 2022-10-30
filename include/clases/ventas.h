@@ -29,14 +29,14 @@ public:
     void calcularNeto() {
         for(int i = 0; i < cantidadPlatos; i++) {
             neto += (platos[i].getEstado() ? platos[i].getPrecio() : 0);
-            if(platos[i].getEstado()) {
+            /* if(platos[i].getEstado()) {
                 cout<<"Precio plato #"<<i<<": $"<<platos[i].getPrecio()<<endl;
                 cout<<"+> $"<<neto<<". "<<endl;
             } //*/
         }
         for(int i = 0; i < cantidadBebidas; i++) {
             neto += (bebidas[i].getEstado() ? bebidas[i].getPrecio() : 0);
-            if(bebidas[i].getEstado()) {
+            /* if(bebidas[i].getEstado()) {
                 cout<<"Precio bebida #"<<i<<": $"<<bebidas[i].getPrecio()<<endl;
                 cout<<"+> $"<<neto<<". "<<endl;
             } //*/

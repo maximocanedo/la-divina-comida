@@ -6,10 +6,6 @@ using namespace std;
 /*
     En este archivo:
      * MAIN FILE
-    Pendiente:
-     * Vincular clases Venta y Mozo con Sucursal.
-        * Al cargar Venta verificar que la sucursal ingresada coincida con la sucursal en la que trabaja el Mozo ingresado.
-     * Cambiar pasaporte por DNI en Persona.
 */
 
 int menuPrincipal();
@@ -40,7 +36,6 @@ int menuPrincipal();
 
 int main() {
     setlocale(LC_ALL, "");
-    //msuc();
     menuPrincipal();
     system("pause");
     return 0;
