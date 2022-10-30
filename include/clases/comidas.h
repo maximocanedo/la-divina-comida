@@ -11,14 +11,14 @@ private:
     char nombre[72];
     int nacionalidad;
     float precio;
-    int tipo; /// 0 => Desayuno, 1 => Almuerzo, 2 => Merienda, 3 => Cena, 4 => Postre
+    int tipo; /// 0 => Desayuno, 1 => Almuerzo, 2 => Snacks, 3 => Cena, 4 => Postre
     bool tieneGluten;
     bool tieneCarne;
     bool tieneHuevo;
     bool tieneAzucar;
     bool tieneMani;
     bool tieneChocolate;
-    bool estado;
+    bool estado = false;
 public:
     /* Gets */
     int getCodigo() { return codigo;}
@@ -27,7 +27,7 @@ public:
     float getPrecio() {return precio;}
     int getTipo() {return tipo;}
     void printTipo(bool e = false) {
-        const char t[5][24] = {"Desayuno", "Almuerzo", "Merienda", "Cena", "Postre"};
+        const char t[5][24] = {"Desayuno", "Almuerzo", "Snack", "Cena", "Postre"};
         cout<<t[tipo];
     }
     bool contieneGluten() {return tieneGluten;}
@@ -80,7 +80,7 @@ public:
         cin>>nacionalidad;
         cout<< "Ingrese el precio: $";
         cin>>precio;
-        cout<< "Ingrese el tipo: (0 => Desayuno, 1 => Almuerzo, 2 => Merienda, 3 => Cena, 4 => Postre): ";
+        cout<< "Ingrese el tipo: (0 => Desayuno, 1 => Almuerzo, 2 => Snacks, 3 => Cena, 4 => Postre): ";
         cin>>tipo;
         char glu;
         cout<<"¿Contiene Gluten? (S/N): ";
@@ -124,7 +124,7 @@ public:
             cout<<"\tPrecio: ";
             cout<<precio<<endl;
             cout<< "\tTipo: ";
-            cout<< tipo<<endl;
+            printTipo(); cout<<endl;
             if(contieneAlgo())
                 cout<<"\tContiene: "<<(tieneGluten?"Gluten; ":"")<<(tieneCarne?"Carne; ":"")<<(tieneHuevo?"Huevo; ":"")<<(tieneAzucar?"Azúcar; ":"")<<(tieneMani?"Maní; ":"")<<(tieneChocolate?"Chocolate; ":"")<<endl;
             cout<<"--------------------------------------------------"<<endl;

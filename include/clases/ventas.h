@@ -27,13 +27,19 @@ private:
 public:
     /* Cálculos internos */
     void calcularNeto() {
-        for(int i = 0; i < 48; i++) {
-            Plato aux1;
-            Bebida aux2;
-            int p1 = aux1.getByCodigo(platos[i].getCodigo());
-            int p2 = aux2.getByCodigo(bebidas[i].getCodigo());
-            neto += (p1 != -1 ? aux1.getPrecio() : 0);
-            neto += (p2 != -1 ? aux2.getPrecio() : 0);
+        for(int i = 0; i < cantidadPlatos; i++) {
+            neto += (platos[i].getEstado() ? platos[i].getPrecio() : 0);
+            if(platos[i].getEstado()) {
+                cout<<"Precio plato #"<<i<<": $"<<platos[i].getPrecio()<<endl;
+                cout<<"+> $"<<neto<<". "<<endl;
+            } //*/
+        }
+        for(int i = 0; i < cantidadBebidas; i++) {
+            neto += (bebidas[i].getEstado() ? bebidas[i].getPrecio() : 0);
+            if(bebidas[i].getEstado()) {
+                cout<<"Precio bebida #"<<i<<": $"<<bebidas[i].getPrecio()<<endl;
+                cout<<"+> $"<<neto<<". "<<endl;
+            } //*/
         }
     }
     void aplicarImpuesto(float porcentaje) { // Porcentajes del 0 al 100 (y más allá)

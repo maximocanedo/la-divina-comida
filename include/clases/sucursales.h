@@ -36,6 +36,7 @@ public:
         if(getEstado()) {
             cout<<"\tDetalles de la sucursal #"<<codigo<<": "<<endl;
             cout<<"\tNombre: "<<nombre<<". "<<endl;
+            cout<<"--------------------------------------------------"<<endl;
         }
     }
     /* Constructor */
