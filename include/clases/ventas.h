@@ -1,6 +1,7 @@
 /*
     En este archivo:
      * Clase Venta
+     * Responsable: Máximo Canedo
 */
 #ifndef VENTAS_H_INCLUDED
 #define VENTAS_H_INCLUDED
