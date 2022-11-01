@@ -19,6 +19,7 @@ int getIndexOf(int *, int, int);            // Devuelve la posición en el vector
 float getAverage(int *, int);               // Devuelve el promedio de un vector de enteros...
 float getAverage(float *, int);             // ... O de floats
 int aCargar();                              // Le pide al usuario la cantidad de registros a cargar y lo devuelve como entero.
+void informarCantRegistros(int, int);       // Muestra por pantalla el mensaje: "Mostrando x registros de y..."
 
 void cargarCadena(char *, int);             // (Función dada en clase) Carga una cadena de texto.
 
@@ -107,6 +108,10 @@ int aCargar() {
     cout<<"Ingrese la cantidad de registros a cargar: ";
     int y; cin>>y;
     return y;
+}
+
+void informarCantRegistros(int fltrd, int total) {
+    cout<<endl<<"Mostrando "<<fltrd<<" registro"<<(fltrd==1?"":"s")<<" de un total de "<<total<<". "<<endl<<endl;
 }
 
 

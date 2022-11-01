@@ -23,16 +23,24 @@ int menuPrincipal();
 #include "include/clases/clientes.h"
 #include "include/clases/ventas.h"
 
+#include "include/fun/filtrar.mozos.h"
+#include "include/fun/filtrar.clientes.h"
+#include "include/fun/filtrar.bebidas.h"
+#include "include/fun/filtrar.platos.h"
+#include "include/fun/filtrar.sucursales.h"
+
 #include "include/fun/a.h"
 #include "include/fun/cargar.h"
 #include "include/fun/mostrar.h"
 #include "include/fun/reportes.h"
+#include "include/fun/reportes.simples.h"
 
 #include "include/menus/menu_carga.h"
 #include "include/menus/menu_muestra.h"
 #include "include/menus/menu_reportes.h"
 #include "include/menus/menu_registros.h"
 #include "include/menus/menu_principal.h"
+#include "include/menus/menu_reportes_basicos.h"
 
 int main() {
     setlocale(LC_ALL, "");

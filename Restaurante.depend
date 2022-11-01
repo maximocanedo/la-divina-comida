@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1667015544 source:f:\desktop\proyectos\restaurante\main.cpp
+1667230708 source:f:\desktop\proyectos\restaurante\main.cpp
 	<iostream>
 	<cstdlib>
 	<locale.h>
@@ -14,15 +14,22 @@
 	"include/clases/bebidas.h"
 	"include/clases/clientes.h"
 	"include/clases/ventas.h"
+	"include/fun/filtrar.mozos.h"
+	"include/fun/filtrar.clientes.h"
+	"include/fun/filtrar.bebidas.h"
+	"include/fun/filtrar.platos.h"
+	"include/fun/filtrar.sucursales.h"
 	"include/fun/a.h"
 	"include/fun/cargar.h"
 	"include/fun/mostrar.h"
 	"include/fun/reportes.h"
+	"include/fun/reportes.simples.h"
 	"include/menus/menu_carga.h"
 	"include/menus/menu_muestra.h"
 	"include/menus/menu_reportes.h"
 	"include/menus/menu_registros.h"
 	"include/menus/menu_principal.h"
+	"include/menus/menu_reportes_basicos.h"
 
 1663375832 f:\desktop\proyectos\restaurante\include\librerias\errores.h
 
@@ -46,7 +53,7 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1666752928 f:\desktop\proyectos\restaurante\include\clases\personas.h
+1667244902 f:\desktop\proyectos\restaurante\include\clases\personas.h
 
 1667065096 f:\desktop\proyectos\restaurante\include\clases\mozos.h
 
@@ -60,7 +67,7 @@
 
 1666881253 f:\desktop\proyectos\restaurante\include\menus\menu_principal.h
 
-1666626966 f:\desktop\proyectos\restaurante\include\librerias\basics.h
+1667230633 f:\desktop\proyectos\restaurante\include\librerias\basics.h
 
 1666628720 f:\desktop\proyectos\restaurante\include\fun\a.h
 
@@ -74,9 +81,23 @@
 
 1667147514 f:\desktop\proyectos\restaurante\include\clases\sucursales.h
 
-1667149593 f:\desktop\proyectos\restaurante\include\fun\reportes.h
+1667225086 f:\desktop\proyectos\restaurante\include\fun\reportes.h
 
-1667079738 f:\desktop\proyectos\restaurante\include\menus\menu_reportes.h
+1667225580 f:\desktop\proyectos\restaurante\include\menus\menu_reportes.h
 
 1667077101 f:\desktop\proyectos\restaurante\include\menus\menu_registros.h
+
+1667225552 f:\desktop\proyectos\restaurante\include\fun\reportes.simples.h
+
+1667230500 f:\desktop\proyectos\restaurante\include\menus\menu_reportes_basicos.h
+
+1667230616 f:\desktop\proyectos\restaurante\include\fun\filtrar.mozos.h
+
+1667226042 f:\desktop\proyectos\restaurante\include\fun\filtrar.clientes.h
+
+1667226175 f:\desktop\proyectos\restaurante\include\fun\filtrar.bebidas.h
+
+1667226146 f:\desktop\proyectos\restaurante\include\fun\filtrar.platos.h
+
+1667226148 f:\desktop\proyectos\restaurante\include\fun\filtrar.sucursales.h
 

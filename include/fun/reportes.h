@@ -14,7 +14,6 @@ int cantMozosQueAtendieronAClientesSolterosEnJueves();
 
 
 
-
 int recaudacionEnBebidasAlcoholicas() {
     Venta obj; int pos = 0; float rec = 0;
     while(obj.leerDeArchivo(pos++)) {
