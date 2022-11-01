@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1667230708 source:f:\desktop\proyectos\restaurante\main.cpp
+1667346108 source:f:\desktop\proyectos\restaurante\main.cpp
 	<iostream>
 	<cstdlib>
 	<locale.h>
@@ -14,22 +14,14 @@
 	"include/clases/bebidas.h"
 	"include/clases/clientes.h"
 	"include/clases/ventas.h"
-	"include/fun/filtrar.mozos.h"
-	"include/fun/filtrar.clientes.h"
-	"include/fun/filtrar.bebidas.h"
-	"include/fun/filtrar.platos.h"
-	"include/fun/filtrar.sucursales.h"
 	"include/fun/a.h"
 	"include/fun/cargar.h"
 	"include/fun/mostrar.h"
 	"include/fun/reportes.h"
-	"include/fun/reportes.simples.h"
 	"include/menus/menu_carga.h"
-	"include/menus/menu_muestra.h"
 	"include/menus/menu_reportes.h"
 	"include/menus/menu_registros.h"
 	"include/menus/menu_principal.h"
-	"include/menus/menu_reportes_basicos.h"
 
 1663375832 f:\desktop\proyectos\restaurante\include\librerias\errores.h
 
@@ -83,15 +75,15 @@
 
 1667225086 f:\desktop\proyectos\restaurante\include\fun\reportes.h
 
-1667340737 f:\desktop\proyectos\restaurante\include\menus\menu_reportes.h
+1667344466 f:\desktop\proyectos\restaurante\include\menus\menu_reportes.h
 
 1667077101 f:\desktop\proyectos\restaurante\include\menus\menu_registros.h
 
 1667225552 f:\desktop\proyectos\restaurante\include\fun\reportes.simples.h
 
-1667342125 f:\desktop\proyectos\restaurante\include\menus\menu_reportes_basicos.h
+1667344165 f:\desktop\proyectos\restaurante\include\menus\menu_reportes_basicos.h
 
-1667342099 f:\desktop\proyectos\restaurante\include\fun\filtrar.mozos.h
+1667344500 f:\desktop\proyectos\restaurante\include\fun\filtrar.mozos.h
 
 1667226042 f:\desktop\proyectos\restaurante\include\fun\filtrar.clientes.h
 
