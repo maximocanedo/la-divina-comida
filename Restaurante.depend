@@ -53,7 +53,7 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1667244902 f:\desktop\proyectos\restaurante\include\clases\personas.h
+1667264821 f:\desktop\proyectos\restaurante\include\clases\personas.h
 
 1667065096 f:\desktop\proyectos\restaurante\include\clases\mozos.h
 
@@ -73,9 +73,9 @@
 
 1666838791 f:\desktop\proyectos\restaurante\include\fun\cargar.h
 
-1666873665 f:\desktop\proyectos\restaurante\include\fun\mostrar.h
+1667270805 f:\desktop\proyectos\restaurante\include\fun\mostrar.h
 
-1666838832 f:\desktop\proyectos\restaurante\include\menus\menu_carga.h
+1667340664 f:\desktop\proyectos\restaurante\include\menus\menu_carga.h
 
 1666668389 f:\desktop\proyectos\restaurante\include\menus\menu_muestra.h
 
@@ -83,15 +83,15 @@
 
 1667225086 f:\desktop\proyectos\restaurante\include\fun\reportes.h
 
-1667225580 f:\desktop\proyectos\restaurante\include\menus\menu_reportes.h
+1667340737 f:\desktop\proyectos\restaurante\include\menus\menu_reportes.h
 
 1667077101 f:\desktop\proyectos\restaurante\include\menus\menu_registros.h
 
 1667225552 f:\desktop\proyectos\restaurante\include\fun\reportes.simples.h
 
-1667230500 f:\desktop\proyectos\restaurante\include\menus\menu_reportes_basicos.h
+1667342125 f:\desktop\proyectos\restaurante\include\menus\menu_reportes_basicos.h
 
-1667230616 f:\desktop\proyectos\restaurante\include\fun\filtrar.mozos.h
+1667342099 f:\desktop\proyectos\restaurante\include\fun\filtrar.mozos.h
 
 1667226042 f:\desktop\proyectos\restaurante\include\fun\filtrar.clientes.h
 

@@ -6,7 +6,8 @@ int reportesSimples();
 
 int menuReportes() {
     Item opciones[] = {
-        Item{1, "Reportes básicos", reportesSimples},
+        Item{1, "Filtrar registros", reportesSimples},
+        Item{-1, ""},
         Item{2, "Recaudación en bebidas alcohólicas", recaudacionEnBebidasAlcoholicas},
         Item{3, "Recaudación de impuestos (Todas las sucursales)", recaudacionAFIPTodasSucursales},
         Item{4, "Recaudación de clientes casados", recaudacionCasados},

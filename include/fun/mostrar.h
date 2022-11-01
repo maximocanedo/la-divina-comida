@@ -64,6 +64,21 @@ int mostrarBebidas() {
     cout<<endl<<"Mostrando "<<total<<" registros..."<<endl;
     return 0;
 }
+int mostrarClientesXLSX() {
+    int pos = 0, total = 0;
+    Mozo obj;
+    cout<<endl;
+    while(obj.leerDeArchivo(pos++)) {
+        if(obj.getEstado()) {
+            cout<<"\t"<<obj.getCodigo()<<"\t"<<obj.getApellido()<<"\t"<<obj.getNombre()<<"\t"<<obj.getCodigoSucursal()<<"\t"<<obj.getDNI()<<"\t"<<obj.getGenero()<<"\t'";
+            obj.getFechaDeNacimiento().print(obj.getFechaDeNacimiento().SP_SHORT, false); cout<<"'\t"<<obj.getNacionalidad()<<"\t"<<obj.getNumeroTelefono()<<"\t";
+            obj.printEstadoCivil(); cout<<"\n";
+            total++;
+        }
+    }
+    cout<<endl<<endl<<"Mostrando "<<total<<" registros..."<<endl;
+    return 0;
+}
 int mostrarClientes() {
     int pos = 0, total = 0;
     Cliente obj;

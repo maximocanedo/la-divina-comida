@@ -12,7 +12,7 @@ private:
     int DNI;
     char genero; // 'M', 'F', 'O'
     Date fechaDeNacimiento;
-    int nacionalidad; // 54, 100, 39, 34...
+    int nacionalidad; // 1-10
     char numeroTelefono[24]; // Se usa chars porque puede darse el caso que el teléfono comience con ceros.
     int estadoCivil; // 0: Soltero, 1: Casado, 2: Relación
     bool estado;

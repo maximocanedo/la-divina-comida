@@ -2,24 +2,9 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="include\menus\menu_muestra.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="96" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\fun\mostrar.h" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="204" topLine="51" />
-		</Cursor>
-	</File>
-	<File name="include\librerias\Menu.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="5528" topLine="157" />
-		</Cursor>
-	</File>
 	<File name="include\clases\mozos.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1687" topLine="51" />
+			<Cursor1 position="342" topLine="0" />
 		</Cursor>
 		<Folding>
 			<Collapse line="73" />
@@ -29,112 +14,37 @@
 			<Collapse line="118" />
 		</Folding>
 	</File>
-	<File name="include\menus\menu_reportes.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\fun\reportes.simples.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="207" topLine="0" />
+			<Cursor1 position="76" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\clases\sucursales.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\librerias\errores.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1162" topLine="24" />
+			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\menus\menu_registros.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\librerias\Basics.h" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="5877" topLine="93" />
-		</Cursor>
-		<Folding>
-			<Collapse line="69" />
-			<Collapse line="83" />
-			<Collapse line="125" />
-			<Collapse line="126" />
-			<Collapse line="153" />
-			<Collapse line="167" />
-		</Folding>
-	</File>
-	<File name="include\librerias\Basics.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1094" topLine="90" />
+			<Cursor1 position="3566" topLine="92" />
 		</Cursor>
 	</File>
-	<File name="include\fun\cargar.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="706" topLine="19" />
+			<Cursor1 position="790" topLine="18" />
 		</Cursor>
 	</File>
-	<File name="include\clases\bebidas.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\menus\menu_reportes.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="6361" topLine="0" />
+			<Cursor1 position="113" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\fun\reportes.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\clases\sucursales.h" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="733" topLine="0" />
+			<Cursor1 position="1162" topLine="3" />
 		</Cursor>
 	</File>
-	<File name="include\clases\comidas.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1167" topLine="27" />
-		</Cursor>
-		<Folding>
-			<Collapse line="46" />
-			<Collapse line="260" />
-			<Collapse line="266" />
-			<Collapse line="272" />
-			<Collapse line="281" />
-			<Collapse line="292" />
-			<Collapse line="297" />
-			<Collapse line="302" />
-			<Collapse line="307" />
-			<Collapse line="312" />
-		</Folding>
-	</File>
-	<File name="include\clases\personas.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="826" topLine="12" />
-		</Cursor>
-	</File>
-	<File name="include\clases\clientes.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3631" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="16" />
-			<Collapse line="29" />
-			<Collapse line="39" />
-			<Collapse line="46" />
-			<Collapse line="57" />
-			<Collapse line="67" />
-			<Collapse line="77" />
-			<Collapse line="84" />
-			<Collapse line="91" />
-		</Folding>
-	</File>
-	<File name="main.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="816" topLine="18" />
-		</Cursor>
-	</File>
-	<File name="include\librerias\Fecha.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="174" topLine="171" />
-		</Cursor>
-		<Folding>
-			<Collapse line="32" />
-			<Collapse line="84" />
-		</Folding>
-	</File>
-	<File name="include\menus\menu_principal.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="358" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\menus\menu_carga.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="851" topLine="1" />
-		</Cursor>
-	</File>
-	<File name="include\clases\ventas.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\clases\ventas.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="10949" topLine="72" />
 		</Cursor>
@@ -158,9 +68,114 @@
 			<Collapse line="336" />
 		</Folding>
 	</File>
-	<File name="include\librerias\errores.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\fun\mostrar.h" open="1" top="1" tabpos="22" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="0" />
+			<Cursor1 position="1713" topLine="60" />
+		</Cursor>
+	</File>
+	<File name="include\clases\comidas.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1167" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="46" />
+			<Collapse line="260" />
+			<Collapse line="266" />
+			<Collapse line="272" />
+			<Collapse line="281" />
+			<Collapse line="292" />
+			<Collapse line="297" />
+			<Collapse line="302" />
+			<Collapse line="307" />
+			<Collapse line="312" />
+		</Folding>
+	</File>
+	<File name="include\menus\menu_muestra.h" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="96" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\clases\bebidas.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="346" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\menus\menu_carga.h" open="1" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="666" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="include\fun\reportes.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="353" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\menus\menu_reportes_basicos.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="218" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\fun\cargar.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="706" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="include\menus\menu_registros.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5877" topLine="93" />
+		</Cursor>
+		<Folding>
+			<Collapse line="69" />
+			<Collapse line="83" />
+			<Collapse line="125" />
+			<Collapse line="126" />
+			<Collapse line="153" />
+			<Collapse line="167" />
+		</Folding>
+	</File>
+	<File name="include\librerias\Menu.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5528" topLine="157" />
+		</Cursor>
+	</File>
+	<File name="include\fun\filtrar.mozos.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="336" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\librerias\Fecha.h" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="174" topLine="171" />
+		</Cursor>
+		<Folding>
+			<Collapse line="32" />
+			<Collapse line="84" />
+		</Folding>
+	</File>
+	<File name="include\menus\menu_principal.h" open="1" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="358" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\clases\clientes.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3631" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="16" />
+			<Collapse line="29" />
+			<Collapse line="39" />
+			<Collapse line="46" />
+			<Collapse line="57" />
+			<Collapse line="67" />
+			<Collapse line="77" />
+			<Collapse line="84" />
+			<Collapse line="91" />
+		</Folding>
+	</File>
+	<File name="include\clases\personas.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3880" topLine="94" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

@@ -43,8 +43,14 @@
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="include/fun/cargar.h" />
+		<Unit filename="include/fun/filtrar.bebidas.h" />
+		<Unit filename="include/fun/filtrar.clientes.h" />
+		<Unit filename="include/fun/filtrar.mozos.h" />
+		<Unit filename="include/fun/filtrar.platos.h" />
+		<Unit filename="include/fun/filtrar.sucursales.h" />
 		<Unit filename="include/fun/mostrar.h" />
 		<Unit filename="include/fun/reportes.h" />
+		<Unit filename="include/fun/reportes.simples.h" />
 		<Unit filename="include/librerias/Basics.h" />
 		<Unit filename="include/librerias/Fecha.h" />
 		<Unit filename="include/librerias/Menu.h" />
@@ -55,6 +61,7 @@
 		<Unit filename="include/menus/menu_principal.h" />
 		<Unit filename="include/menus/menu_registros.h" />
 		<Unit filename="include/menus/menu_reportes.h" />
+		<Unit filename="include/menus/menu_reportes_basicos.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
